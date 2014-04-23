@@ -46,3 +46,6 @@ end
 
 # User devise
 gem 'devise'
+
+# Simple forms
+gem 'simple_form'
