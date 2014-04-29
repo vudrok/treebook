@@ -35,10 +35,12 @@
 		</div>
 	</nav>
 	<div class="container">
-		<!-- devise notices -->
-		<p class="notice"><%= notice %></p>
-	    <p class="alert"><%= alert %></p>
-	    <!-- devise notices -->
+		<% flash.each do |type, message| %>
+		<div class="alert <%= flash_class type %>">
+			<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+			<%= message %>
+		</div>
+		<% end %>
 		<%= yield %>
 	</div>
 
