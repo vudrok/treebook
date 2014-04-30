@@ -3,3 +3,9 @@ vudrok:
    last_name: 'Villalobos'
    profile_name: 'vudrok'
    email: 'jose@4web.mx'
+
+jim:
+  first_name: "Jim"
+  last_name: "Hoskins"
+  email: "jim@teamtreehouse.com"
+  profile_name: "JimBo"
